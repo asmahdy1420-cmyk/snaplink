@@ -5,6 +5,26 @@ SQLite file, no third-party trackers.
 
 Built with SvelteKit 2, Svelte 5 runes and TypeScript.
 
+## Screenshots
+
+The data below is demo data: the links point at example domains, and the click history was inserted into a local SQLite file for the screenshots.
+
+![Create form showing a freshly shortened link](docs/screenshots/created-link.png)
+
+Creating a link. The result card offers the short URL, a copy button, the analytics page and a QR code download.
+
+![Admin dashboard listing five links with click counts and status](docs/screenshots/dashboard.png)
+
+The admin dashboard: click counts against a limit, an expired link and a password-protected link (marked "locked").
+
+![Analytics page for one link with QR code, clicks chart, referrers, browsers and countries](docs/screenshots/analytics.png)
+
+Per-link analytics over 30 days, with the link's QR code at the top right.
+
+![Password prompt shown when opening a protected short link](docs/screenshots/password-link.png)
+
+Opening a password-protected link sends the visitor to an unlock page first.
+
 ## Why
 
 Hosted shorteners are convenient, but they own your links and your visitors' data. snaplink is
